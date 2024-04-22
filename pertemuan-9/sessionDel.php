@@ -1,6 +1,6 @@
 <?php
     session_start();
-?>;
+?>
 
 <!DOCTYPE html>
 <html>
@@ -10,6 +10,6 @@
             session_destroy();
 
             echo "All session variables are now removed, and the session is detroyed";
-        ?>;
+        ?>
     </body>
 </html>
