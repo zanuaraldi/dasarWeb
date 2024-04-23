@@ -62,7 +62,7 @@
     <br><br>
     <?php
     include('koneksi.php');
-    $query = "SELECT * FROM anggota ORDER BY id DESC";
+    $query = "SELECT * FROM anggota2 ORDER BY id DESC";
     $result = mysqli_query($koneksi, $query);
     ?>
     <table class="table">
