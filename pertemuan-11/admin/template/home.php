@@ -5,7 +5,7 @@
     <div class="row">
         <?php
         include "menu.php";
-        include "../../config/koneksi.php";
+        include "config/koneksi.php";
         $query_anggota = "SELECT count(id) as jml FROM anggota";
         $result_anggota = mysqli_query($koneksi, $query_anggota);
         
